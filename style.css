@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3efff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #d8d0eb;
+}
+
+h1 {
+    color: #7554c8;
+}
+
+p {
+    color: #555;
+}
+
+button {
+    background-color: #8b70dc;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 6px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#menu button {
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6e51bf;
+}
+
+.pilihan-btn {
+    margin: 8px 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+#hasil {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f3efff;
+    border-radius: 10px;
+}
+
+.menang {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.kalah {
+    color: red;
+    font-weight: bold;
+}
+
+.seri {
+    color: #7554c8;
+    font-weight: bold;
+}
